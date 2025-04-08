@@ -1,4 +1,5 @@
-require("./server.js");
+require("./server");
+require("dotenv").config();
 const {
   Client,
   GatewayIntentBits,
@@ -15,7 +16,6 @@ const {
   InteractionType,
 } = require("discord.js");
 const { REST } = require("@discordjs/rest");
-require("dotenv").config();
 
 const client = new Client({
   intents: [
