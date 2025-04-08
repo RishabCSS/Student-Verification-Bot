@@ -1,4 +1,4 @@
-require("./server");
+require("./server.js");
 const {
   Client,
   GatewayIntentBits,
